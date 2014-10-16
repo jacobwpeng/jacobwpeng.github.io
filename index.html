@@ -1,11 +1,42 @@
----
-layout: default
-title: My Blog
----
-<h2>{{ page.title }}</h2>
-<p>最新文章</p>
-<ul>
-　　{% for post in site.posts %}
-　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　{% endfor %}
-</ul>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Jacobwpeng.github.io by jacobwpeng</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Jacobwpeng.github.io</h1>
+        <h2>Github Pages</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/jacobwpeng" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a name="level-1" class="anchor" href="#level-1"><span class="octicon octicon-link"></span></a>Level 1</h1>
+
+<h2>
+<a name="level-2" class="anchor" href="#level-2"><span class="octicon octicon-link"></span></a>Level 2</h2>
+
+<h3>
+<a name="level-3" class="anchor" href="#level-3"><span class="octicon octicon-link"></span></a>Level 3</h3>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
